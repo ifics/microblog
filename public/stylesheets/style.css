@@ -1,0 +1,199 @@
+
+/* logout */
+#logout {
+	-moz-box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	-webkit-box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #768d87), color-stop(1, #6c7c7c));
+	background:-moz-linear-gradient(top, #768d87 5%, #6c7c7c 100%);
+	background:-webkit-linear-gradient(top, #768d87 5%, #6c7c7c 100%);
+	background:-o-linear-gradient(top, #768d87 5%, #6c7c7c 100%);
+	background:-ms-linear-gradient(top, #768d87 5%, #6c7c7c 100%);
+	background:linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#768d87', endColorstr='#6c7c7c',GradientType=0);
+	background-color:#768d87;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	border:1px solid #566963;
+	display:block;
+ 	float: right;
+ 	margin: 0;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:11px 23px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #2b665e;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #6c7c7c), color-stop(1, #768d87));
+	background:-moz-linear-gradient(top, #6c7c7c 5%, #768d87 100%);
+	background:-webkit-linear-gradient(top, #6c7c7c 5%, #768d87 100%);
+	background:-o-linear-gradient(top, #6c7c7c 5%, #768d87 100%);
+	background:-ms-linear-gradient(top, #6c7c7c 5%, #768d87 100%);
+	background:linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#6c7c7c', endColorstr='#768d87',GradientType=0);
+	background-color:#6c7c7c;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+ html {
+ 	background-image: url('../images/wood.jpg');
+ 	background-size: cover;
+ 	min-height: 100%;
+ 	min-width: 100%;
+ 	background-repeat: no-repeat;
+ }
+ 
+body {
+ 	font-weight: 900;
+ 	padding: 50px;
+ 	height: 100%;
+ 	font: 20px;
+ 	max-width: 60%;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	font-family: 'Cabin Sketch', cursive;
+ 	font-weight: bold;
+ 	color: #1F0F00;
+}
+
+ a {
+   color: #00B7FF;
+ }
+ 
+ #tweetbody {
+ 	width: 50%;
+ 	height: 20px;
+ }
+ 
+ #bigButton {
+ 	width: 30%;
+ 	height: 20%;
+ 	display: inline-block;
+ 	margin-top: 2% 35%;
+ 
+ }
+ 
+ .header {
+ 	background-color: #AEA39E;
+ 	font-family: 'Fredericka the Great', cursive;
+ 	border: 5px solid black;
+ 	border-radius: 25px;
+ 	text-align: center;
+ 	margin: 25px 0px;
+ 	opacity: .85;
+ 	font-size: 3.8em;
+ 	text-decoration: underline;
+ 	webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+ 	moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+ 	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+ }
+
+.title {
+	text-align: center;
+	border: 3px black solid;
+	font-size: 2em;
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	border-radius: 25px;
+	padding: 10px;
+	background-color: #AEA39E;
+	opacity: .85;
+ }
+ 
+ .tweetSlot,
+ .regLog,
+ .saying {
+ 	border: 3px black solid;
+ 	font-size: 2em;
+ 	padding: 1%;
+ 	background-color: #AEA39E;
+ 	border-radius: 25px;
+ 	opacity: .85;
+ 	webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+ 	moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+ 	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+ }
+
+ .tweetSlot {
+ 	margin: 1%;
+ }
+
+.regLog {
+	margin-bottom: 3%;
+	text-align: center;
+}
+
+.saying {
+	text-align: center;
+}
+ 
+ .error,
+ .pending {
+ 	text-align: center;
+	border: 3px black solid;
+	border-radius: 25px;
+	padding: 1% .5% 1%;
+	margin-bottom: 3%;
+	opacity: .85;
+	webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+ }
+
+ .error {
+ 	 background-color: #FF6666;
+ }
+ 
+ .pending {
+ 	background-color: #66E0A3;
+ }
+ 
+ #user {
+ 	text-align: center;
+ 	font-size: 40px	;
+ }
+
+
+.tweetUser {
+	font-size: 1.2em;
+	padding-left: 30px;
+	padding-bottom: 0px;
+	margin:0 0 10px;
+	text-decoration: underline;
+}
+
+.tweetBody {
+	padding-left: 15px;
+	margin: 0px;
+}
+
+.tweetTime {
+	text-align: right;
+	margin: 5px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
